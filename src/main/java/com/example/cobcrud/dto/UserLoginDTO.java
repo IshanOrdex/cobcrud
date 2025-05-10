@@ -11,12 +11,8 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter
 @Setter
-public class UserRegistrationDTO {
-	
-	private String name;
-    private String email;
-    private String password;
-    private String contactNo;
-    private String role;
-    
+public class UserLoginDTO {
+
+	private String email;
+	private String password;
 }

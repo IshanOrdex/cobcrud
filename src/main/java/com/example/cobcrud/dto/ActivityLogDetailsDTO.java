@@ -11,12 +11,15 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter
 @Setter
-public class UserRegistrationDTO {
+public class ActivityLogDetailsDTO {
 	
-	private String name;
-    private String email;
-    private String password;
-    private String contactNo;
-    private String role;
-    
+	private Integer activityID;
+	
+	private Integer durationInMinutes;
+	
+	private Integer caloriesBurned;
+
+	private Integer planID;
+	
+	private Integer userID;
 }
